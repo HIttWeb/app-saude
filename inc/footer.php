@@ -1,10 +1,11 @@
 		<footer>
 			<div class="wrap-footer">
 				<div class="left-side">
-					
+					<img src="./images/logo-30-anos.png" alt="">
+					<img src="./images/logo-fique-sabendo.png" alt="">
 				</div>
 				<div class="right-side">
-					
+					<img src="./images/logo-ministerio-saude.png" alt="">					
 				</div>
 				<a class="link" href="http://saude.gov.br/partiuteste" target="_blank">saude.gov.br/partiuteste</a>
 			</div>

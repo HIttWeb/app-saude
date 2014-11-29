@@ -5,7 +5,7 @@
 </section>
 
 <section class="timeline">
-	
+	<h2>30 anos de luta e fatos históricos</h2>
 </section>
 
 <section class="mosaico">
