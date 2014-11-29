@@ -1,0 +1,284 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background: white;
+}
+#container {
+  background: url(../images/bg.jpg) 0 0 repeat-y;
+  display: block;
+  width: 810px;
+  height: 2869px;
+  margin: 0 auto;
+}
+#container header {
+  background: url(../images/bg-header.jpg) 0 16px no-repeat;
+  position: relative;
+  display: block;
+  height: 330px;
+}
+#container header .titulo {
+  background: url(../images/bg-titulo.png) 0 0 no-repeat;
+  position: absolute;
+  display: block;
+  width: 455px;
+  height: 195px;
+  text-indent: -9999px;
+  top: 60px;
+  left: 193px;
+}
+#container footer {
+  position: relative;
+  display: block;
+  height: 235px;
+}
+#container footer .wrap-footer {
+  display: block;
+  width: 732px;
+  margin: 0 auto;
+}
+#container footer .wrap-footer .left-side {
+  float: left;
+  width: 50%;
+  height: 100px;
+  background: red;
+}
+#container footer .wrap-footer .right-side {
+  float: left;
+  width: 50%;
+  height: 100px;
+  background: blue;
+}
+#container footer .wrap-footer .link {
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+#container .video-campanha {
+  background: #cccccc;
+  position: relative;
+  display: block;
+  width: 732px;
+  height: 210px;
+  margin: 0 auto;
+}
+#container .timeline {
+  position: relative;
+  display: block;
+  width: 732px;
+  height: 295px;
+  margin: 0 auto 54px auto;
+  padding-top: 34px;
+}
+#container .mosaico {
+  position: relative;
+  display: block;
+  width: 732px;
+  margin: 0 auto;
+}
+#container .mosaico .wrap-abas {
+  width: 732px;
+  margin: 0 auto;
+}
+#container .mosaico .wrap-abas .tabs {
+  height: 40px;
+  position: relative;
+  display: block;
+  list-style: none;
+  margin-bottom: 15px;
+}
+#container .mosaico .wrap-abas .tabs li {
+  position: relative;
+  display: block;
+  float: left;
+}
+#container .mosaico .wrap-abas .tabs li a {
+  background: #790000;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: white;
+  padding: 12px 65.9px;
+  border-right: 1px solid #993c3c;
+  border-left: 1px solid #902323;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+#container .mosaico .wrap-abas .tabs li a:hover {
+  background: white;
+  color: #790000;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+#container .mosaico .wrap-abas .tabs li a.ativo {
+  background: white;
+  color: #790000;
+}
+#container .mosaico .wrap-abas .tabs li:first-child a {
+  border-left: 0 none;
+}
+#container .mosaico .wrap-abas .tabs li:last-child a {
+  border-right: 0 none;
+}
+#container .mosaico .wrap-abas .tabs-content-container {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .tab-content {
+  display: none;
+}
+#container .mosaico .wrap-abas .tabs-content-container .tab-content.ativo {
+  display: block;
+}
+#container .mosaico .grupo {
+  position: relative;
+  display: block;
+  clear: both;
+}
+#container .mosaico .grupo .pequeno {
+  float: left;
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 210px;
+  background: black;
+}
+#container .mosaico .grande {
+  position: relative;
+  display: block;
+  clear: both;
+  width: 100%;
+  height: 210px;
+  background: lime;
+}
