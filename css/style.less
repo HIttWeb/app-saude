@@ -47,8 +47,8 @@ body{
 	background: url(../images/bg.jpg) 0 0 repeat-y;
 	display: block;
 	width: 810px;
-	height: 2869px;
 	margin: 0 auto;
+	padding-bottom: 40px;
 
 	header{
 		background: url(../images/bg-header.jpg) 0 16px no-repeat;
@@ -230,8 +230,8 @@ body{
 				display: block;
 				position: absolute;
 				bottom: 15px;
-				left: 0;
-				width: 100%;
+				left: -100px;
+				width: 732px;
 				height: 3px;
 				background: #FFFFFF;
 			}
@@ -517,11 +517,154 @@ body{
 		}
 	}
 
+	.breadcrumb{
+		background: #9d1d1c;
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 20px;
+		padding-left: 10px;
+
+		li{
+			position: relative;
+			display: block;
+			float: left;
+			padding: 5px 0;
+
+			a{
+				position: relative;
+				display: block;
+				float: left;
+				text-decoration: none;
+				font-family: 'museo_sans500', sans-serif;
+				font-size: 10px;
+				color: #FFFFFF;
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+
+			&:after{
+				content: '>';
+				position: relative;
+				display: block;
+				float: left;
+				text-decoration: none;
+				font-family: 'museo_sans500', sans-serif;
+				font-size: 10px;
+				color: #FFFFFF;
+				margin: 0 5px;
+			}
+		}
+	}
+
 	.conteudo-interno{
 		background: #730100;
 		position: relative;
 		display: block;
 		width: 732px;
-		margin: 0 auto;
+		margin: 0 auto 40px auto;
+
+		&:before,
+		&:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+		.topo-interna{
+			position: relative;
+			display: block;
+			margin-bottom: 40px;
+
+			&:before,
+			&:after {
+				content: " ";
+				display: table;
+				clear: both;
+			}
+
+			img{
+				position: relative;
+				display: block;
+				float: left;
+				width: 390px;
+				height: 210px;
+			}
+
+			h2{
+				position: absolute;
+				display: block;
+				font-family: 'museo_sans900', sans-serif;
+				font-size: 30px;
+				color: #FFFFFF;
+				top: 80px;
+				right: 120px;
+			}
+		}
+
+		.wrap-content{
+			position: relative;
+			display: block;
+
+			&:before,
+			&:after {
+				content: " ";
+				display: table;
+				clear: both;
+			}
+		}
+
+		.material-da-campanha{
+			width: 550px;
+			margin: 0 auto;
+
+			ul{
+				position: relative;
+				display: block;
+
+				li{
+					position: relative;
+					display: inline-block;
+					margin: 0 37px 30px 37px;
+					width: 105px;
+
+					h3{
+						position: relative;
+						display: block;
+						font-family: 'museo_sans900', sans-serif;
+						font-size: 17px;
+						color: #FFFFFF;
+						text-align: center;
+						margin-bottom: 10px;
+					}
+					img{
+						position: relative;
+						display: block;
+						width: 105px;
+						height: 121px;
+						margin-bottom: 20px;
+					}
+					a{
+						position: relative;
+						display: block;
+						background: #FFFFFF;
+						color: #d11918;
+						font-size: 11px;
+						padding: 5px;
+						width: 64px;
+						margin: 0 auto;
+						text-decoration: none;
+						-webkit-border-radius: 3px 3px 3px 3px;
+						border-radius: 3px 3px 3px 3px;
+
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
 	}
 }

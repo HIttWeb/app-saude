@@ -25,10 +25,8 @@ $(document).ready(function(){
 
     // TIMELINE DO APP
     
-    $(function(){
-        $().timelinr({
-            arrowKeys: 'true'
-        });
+    $().timelinr({
+        arrowKeys: 'true'
     });
 
 });
