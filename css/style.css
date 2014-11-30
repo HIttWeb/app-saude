@@ -313,6 +313,8 @@ body {
   display: none;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   background: rgba(0, 0, 0, 0.75);
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -325,10 +327,10 @@ body {
   position: fixed;
   display: block;
   width: 600px;
-  height: 524px;
+  height: 300px;
   top: 50%;
   left: 50%;
-  margin-top: -262px;
+  margin-top: -150px;
   margin-left: -300px;
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
@@ -342,23 +344,181 @@ body {
   display: block;
   width: 32px;
   height: 32px;
-  top: -10px;
-  right: -10px;
+  top: -20px;
+  right: -20px;
 }
-#container .timeline {
+#container .linha-do-tempo {
   position: relative;
   display: block;
   width: 732px;
   height: 295px;
-  margin: 0 auto 54px auto;
+  margin: 0 auto 80px auto;
   padding-top: 34px;
 }
-#container .timeline h2 {
+#container .linha-do-tempo h2 {
   position: relative;
   display: block;
   text-align: center;
   font-size: 22px;
   color: #f5c112;
+}
+#container .linha-do-tempo #timeline {
+  width: 732px;
+  height: auto;
+  overflow: hidden;
+  margin: 15px auto 40px auto;
+  position: relative;
+}
+#container .linha-do-tempo #dates {
+  width: 100% !important;
+  height: 50px;
+  margin: 0 !important;
+  overflow: hidden;
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+#container .linha-do-tempo #dates:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+#container .linha-do-tempo #dates li {
+  width: 183px;
+  list-style: none;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+}
+#container .linha-do-tempo #dates a {
+  position: relative;
+  display: block;
+  font-family: 'museo_sans700', sans-serif;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+#container .linha-do-tempo #dates a:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background: #b12a29;
+  bottom: -30px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  margin-left: -10px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+  z-index: 9;
+}
+#container .linha-do-tempo #dates .selected:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background: white;
+  bottom: -30px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  margin-left: -10px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+  z-index: 9;
+}
+#container .linha-do-tempo #issues {
+  width: 216px;
+  height: 186px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+#container .linha-do-tempo #issues li {
+  width: 216px;
+  height: 186px;
+  list-style: none;
+  float: left;
+}
+#container .linha-do-tempo #issues li.selected img {
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+#container .linha-do-tempo #issues li img {
+  float: left;
+  margin: 0;
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+  /* IE 8 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#00ffffff);
+  /* IE 6 & 7 */
+  zoom: 1;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  -webkit-transform: scale(0.7, 0.7);
+  -moz-transform: scale(0.7, 0.7);
+  -o-transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
+}
+#container .linha-do-tempo #issues li h1 {
+  color: #ffcc00;
+  font-size: 48px;
+  margin: 20px 0;
+  text-shadow: black 1px 1px 2px;
+}
+#container .linha-do-tempo #issues li p {
+  font-size: 14px;
+  margin-right: 70px;
+  font-weight: normal;
+  line-height: 22px;
+  text-shadow: black 1px 1px 2px;
+}
+#container .linha-do-tempo #grad_left,
+#container .linha-do-tempo #grad_right {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+}
+#container .linha-do-tempo #grad_left {
+  left: 0;
+}
+#container .linha-do-tempo #grad_right {
+  right: 0;
+}
+#container .linha-do-tempo #next,
+#container .linha-do-tempo #prev {
+  position: absolute;
+  top: 0;
+  font-size: 70px;
+  top: 100px;
+  width: 22px;
+  height: 38px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+#container .linha-do-tempo #next {
+  right: 0;
+  background-image: url(../images/timeline/next.png);
+}
+#container .linha-do-tempo #prev {
+  left: 0;
+  background-image: url(../images/timeline/prev.png);
 }
 #container .mosaico {
   position: relative;
@@ -782,4 +942,11 @@ body {
   font-size: 13px;
   top: 115px;
   right: 110px;
+}
+#container .interna {
+  background: #730100;
+  position: relative;
+  display: block;
+  width: 732px;
+  margin: 0 auto;
 }

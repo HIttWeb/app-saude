@@ -9,14 +9,17 @@
 	<div class="wrap-video">
 		<div class="content-video">
 			<a href="javascript:void(0);" class="close-btn" title="Fechar Janela"></a>
+			<video width="600" controls>
+				<source src="./video/big_buck_bunny_720p_surround.avi" type="video/mp4">
+				<source src="./video/big_buck_bunny_480p_stereo.ogg" type="video/ogg">
+				Your browser does not support HTML5 video.
+			</video>
 		</div>
 	</div>
 	
 </section>
 
-<section class="timeline">
-	<h2>30 anos de luta e fatos históricos</h2>
-</section>
+<?php include('./inc/timeline.php'); ?>
 
 <section class="mosaico">
 	<div class="wrap-abas">

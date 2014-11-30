@@ -17,10 +17,16 @@ $(document).ready(function(){
     // LIGHTBOX DO VÍDEO DA CAMPANHA
 
     $('.link-filme').on('click', function(){
-		$(".wrap-video").fadeIn();
+		$(".wrap-video").show();
 		$(".content-video .close-btn").click(function(){
-			$(".wrap-video").fadeOut();
+			$(".wrap-video").hide();
 		});
+    });
+
+    // TIMELINE DO APP
+    
+    $(function(){
+        $().timelinr();
     });
 
 });
