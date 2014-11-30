@@ -2,7 +2,7 @@
 
 <?php include('./inc/timeline.php'); ?>
 
-<div class="interna">
+<div class="conteudo-interno">
 	asdasd
 </div>
 

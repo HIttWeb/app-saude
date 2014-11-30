@@ -603,6 +603,14 @@ body {
 #container .mosaico .wrap-abas .tabs-content-container .tab-content.ativo {
   display: block;
 }
+#container .mosaico .wrap-abas .tabs-content-container .tag {
+  position: absolute;
+  display: block;
+  font-size: 11px;
+  color: white;
+  top: 5px;
+  left: 5px;
+}
 #container .mosaico .wrap-abas .tabs-content-container .box {
   position: relative;
   display: block;
@@ -614,17 +622,12 @@ body {
   display: table;
   clear: both;
 }
-#container .mosaico .wrap-abas .tabs-content-container .box a {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 #container .mosaico .wrap-abas .tabs-content-container .box .pequeno {
   float: left;
   position: relative;
   display: block;
   width: 50%;
+  height: 210px;
   color: white;
 }
 #container .mosaico .wrap-abas .tabs-content-container .box .pequeno img {
@@ -639,14 +642,319 @@ body {
   display: block;
   clear: both;
   width: 100%;
+  height: 210px;
   color: white;
 }
-#container .mosaico .wrap-abas .tabs-content-container .box .grande img {
+#container .mosaico .wrap-abas .tabs-content-container .box .video .play {
   position: relative;
   display: block;
-  margin: 0;
-  padding: 0;
-  border: 0;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .video .play:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/play-video.png) 0 0 no-repeat;
+  width: 68px;
+  height: 68px;
+  top: 50%;
+  left: 50%;
+  margin-top: -34px;
+  margin-left: -34px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .video p {
+  position: absolute;
+  display: block;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  top: 20px;
+  left: 5px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .video .envie {
+  background: #ca3837;
+  position: absolute;
+  display: block;
+  width: 85px;
+  padding: 3px 0;
+  font-size: 9px;
+  text-align: center;
+  color: white;
+  top: 47px;
+  left: 5px;
+  text-decoration: none;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .protocolo-atendimento {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .protocolo-atendimento .icon {
+  position: absolute;
+  display: block;
+  width: 211px;
+  height: 106px;
+  top: 55px;
+  left: 75px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .teste {
+  position: relative;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .teste p {
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  color: white;
+  text-align: left;
+  bottom: 5px;
+  left: 5px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ao-vivo {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ao-vivo .play {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ao-vivo .play:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/play-video.png) 0 0 no-repeat;
+  width: 68px;
+  height: 68px;
+  top: 50%;
+  left: 50%;
+  margin-top: -34px;
+  margin-left: -34px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ao-vivo p {
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  color: white;
+  text-align: left;
+  top: 20px;
+  left: 5px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 h2 {
+  position: absolute;
+  display: block;
+  font-size: 38px;
+  line-height: 30px;
+  color: #ca3837;
+  top: 65px;
+  left: 125px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 p {
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  color: #ca3837;
+  top: 135px;
+  left: 125px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 .saiba-mais {
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  color: #ca3837;
+  text-decoration: none;
+  text-align: left;
+  top: 163px;
+  left: 125px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .download-campanha {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .download-campanha p {
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  color: black;
+  top: 75px;
+  left: 185px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .download-campanha .baixe {
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  top: 135px;
+  left: 185px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-02 {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-02 p {
+  position: absolute;
+  display: block;
+  font-size: 19px;
+  color: white;
+  text-align: left;
+  bottom: 10px;
+  left: 5px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tirinha {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tirinha h3 {
+  position: absolute;
+  display: block;
+  color: #ca3837;
+  font-size: 17px;
+  top: 45px;
+  left: 210px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tirinha p {
+  position: absolute;
+  display: block;
+  font-family: 'museo_sans500', sans-serif;
+  color: #ca3837;
+  font-size: 13px;
+  top: 90px;
+  left: 210px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tirinha .saiba-mais {
+  position: absolute;
+  display: block;
+  background: #ca3837;
+  font-size: 9px;
+  color: white;
+  width: 57px;
+  padding: 3px 0;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  top: 165px;
+  left: 210px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .livro-sexualidade {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .livro-sexualidade h3 {
+  position: absolute;
+  display: block;
+  color: #ffca03;
+  font-size: 17px;
+  top: 70px;
+  left: 195px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .livro-sexualidade p {
+  position: absolute;
+  display: block;
+  font-family: 'museo_sans500', sans-serif;
+  color: #ffca03;
+  font-size: 13px;
+  top: 100px;
+  left: 195px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .prevencao .tag {
+  color: #be2f2d;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .prevencao .info {
+  position: absolute;
+  display: block;
+  background: url(../images/bar-info-prevencao.png) top left no-repeat;
+  top: 0;
+  right: 105px;
+  color: #be2f2d;
+  padding-top: 67px;
+  padding-left: 17px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .prevencao .info h2 {
+  color: #ca3837;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .prevencao .info p {
+  color: #ca3838;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .prevencao .info .iniciar {
+  position: relative;
+  display: block;
+  background: #ca3837;
+  font-size: 9px;
+  color: white;
+  width: 45px;
+  padding: 3px 0;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  text-decoration: none;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .quiz-pegacao {
+  position: relative;
+  display: block;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .quiz-pegacao .tag {
+  color: #be2f2d;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .quiz-pegacao h2 {
+  position: absolute;
+  display: block;
+  color: #ca3837;
+  font-size: 33px;
+  top: 86px;
+  right: 130px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .quiz-pegacao p {
+  position: absolute;
+  display: block;
+  color: #ca3837;
+  font-size: 13px;
+  top: 135px;
+  right: 150px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .quiz-pegacao .iniciar {
+  position: absolute;
+  display: block;
+  background: #ca3837;
+  font-size: 9px;
+  color: white;
+  width: 45px;
+  padding: 3px 0;
+  top: 180px;
+  right: 345px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  text-decoration: none;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tratamento {
+  position: relative;
+  display: block;
+  height: 190px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tratamento h2 {
+  position: absolute;
+  display: block;
+  color: #ca3837;
+  font-size: 38px;
+  top: 60px;
+  left: 110px;
+}
+#container .mosaico .wrap-abas .tabs-content-container .box .tratamento p {
+  position: absolute;
+  display: block;
+  color: #ca3837;
+  font-size: 13px;
+  top: 115px;
+  right: 110px;
 }
 #container .conteudo-interno {
   background: #730100;

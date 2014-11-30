@@ -8,6 +8,6 @@
 <body>
 
 	<div id="container">
-		<header>
-			<h1 class="titulo-interna">Faça o teste do HIV. #partiuteste</h1>
+		<header class="interna">
+			<h1 class="titulo">Faça o teste do HIV. #partiuteste</h1>
 		</header>

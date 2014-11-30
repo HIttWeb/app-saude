@@ -1,17 +1,21 @@
 <div id="teste" class="tab-content">
 	<div class="box">
-		<article class="pequeno download">
+		<article class="grande">
 			<a href="javascript:void(0);">
-				<img class="bg-box" src="./images/box-download-historia-aids.jpg" alt="">
+				<img src="./images/box-tratamento.jpg" alt="">
 			</a>
 		</article>
-		<article class="pequeno video">
-			<a class="play" href="javascript:void(0);">
-				<img class="bg-box" src="./images/box-video-minha-historia.jpg" alt="">
+	</div>
+	<div class="box">
+		<article class="pequeno">
+			<a href="javascript:void(0);">
+				<img src="./images/box-sua-tirinha.jpg" alt="">
 			</a>
-			<span class="tag">vídeo</span>
-			<p>minha história</p>
-			<a href="#" class="envie">envie sua história</a>
+		</article>
+		<article class="pequeno">
+			<a href="javascript:void(0);">
+				<img src="./images/box-livro-sexualidade.jpg" alt="">
+			</a>
 		</article>
 	</div>
 </div>
