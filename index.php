@@ -1,6 +1,16 @@
 <?php include('./inc/header.php'); ?>
 
 <section class="video-campanha">
+	<a class="link-filme" href="javascript:void(0);">
+		<img src="./images/bg-video-campanha.jpg" alt="">
+	</a>
+	<span class="tag">filme da campanha</span>
+
+	<div class="wrap-video">
+		<div class="content-video">
+			<a href="javascript:void(0);" class="close-btn" title="Fechar Janela"></a>
+		</div>
+	</div>
 	
 </section>
 
