@@ -24,7 +24,7 @@ jQuery.fn.timelinr = function(options){
 		issuesTransparencySpeed: 	500,				// value: integer between 100 and 1000 (recommended), default to 500 (normal)
 		prevButton: 				'#prev',			// value: any HTML tag or #id, default to #prev
 		nextButton: 				'#next',			// value: any HTML tag or #id, default to #next
-		arrowKeys: 					'false',			// value: true | false, default to false
+		arrowKeys: 					'true',			// value: true | false, default to false
 		startAt: 					1,					// value: integer, default to 1 (first)
 		autoPlay: 					'false',			// value: true | false, default to false
 		autoPlayDirection: 			'forward',			// value: forward | backward, default to forward
@@ -73,24 +73,24 @@ jQuery.fn.timelinr = function(options){
 			$(settings.issuesDiv+' li').animate({'opacity':settings.issuesTransparency},{queue:false, duration:settings.issuesSpeed}).removeClass(settings.issuesSelectedClass).eq(currentIndex).addClass(settings.issuesSelectedClass).fadeTo(settings.issuesTransparencySpeed,1);
 			// prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows | bugfixed: arrows not showing when jumping from first to last date
 			if(howManyDates == 1) {
-				$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
+				//$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
 			} else if(howManyDates == 2) {
 				if($(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				 	$(settings.nextButton).fadeIn('fast');
 				} 
 				else if($(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 					$(settings.prevButton).fadeIn('fast');
 				}
 			} else {
 				if( $(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass) ) {
 					$(settings.nextButton).fadeIn('fast');
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				} 
 				else if( $(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass) ) {
 					$(settings.prevButton).fadeIn('fast');
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 				}
 				else {
 					$(settings.nextButton+','+settings.prevButton).fadeIn('slow');
@@ -141,22 +141,22 @@ jQuery.fn.timelinr = function(options){
 			}
 			// prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows
 			if(howManyDates == 1) {
-				$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
+				//$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
 			} else if(howManyDates == 2) {
 				if($(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				 	$(settings.nextButton).fadeIn('fast');
 				} 
 				else if($(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 					$(settings.prevButton).fadeIn('fast');
 				}
 			} else {
 				if( $(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass) ) {
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				} 
 				else if( $(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass) ) {
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 				}
 				else {
 					$(settings.nextButton+','+settings.prevButton).fadeIn('slow');
@@ -199,22 +199,22 @@ jQuery.fn.timelinr = function(options){
 			}
 			// prev/next buttons now disappears on first/last issue | bugfix from 0.9.51: lower than 1 issue hide the arrows
 			if(howManyDates == 1) {
-				$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
+				//$(settings.prevButton+','+settings.nextButton).fadeOut('fast');
 			} else if(howManyDates == 2) {
 				if($(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				 	$(settings.nextButton).fadeIn('fast');
 				} 
 				else if($(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass)) {
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 					$(settings.prevButton).fadeIn('fast');
 				}
 			} else {
 				if( $(settings.issuesDiv+' li:first-child').hasClass(settings.issuesSelectedClass) ) {
-					$(settings.prevButton).fadeOut('fast');
+					//$(settings.prevButton).fadeOut('fast');
 				} 
 				else if( $(settings.issuesDiv+' li:last-child').hasClass(settings.issuesSelectedClass) ) {
-					$(settings.nextButton).fadeOut('fast');
+					//$(settings.nextButton).fadeOut('fast');
 				}
 				else {
 					$(settings.nextButton+','+settings.prevButton).fadeIn('slow');

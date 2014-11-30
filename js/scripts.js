@@ -26,7 +26,9 @@ $(document).ready(function(){
     // TIMELINE DO APP
     
     $(function(){
-        $().timelinr();
+        $().timelinr({
+            arrowKeys: 'true'
+        });
     });
 
 });
