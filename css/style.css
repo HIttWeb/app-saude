@@ -738,7 +738,7 @@ body {
   top: 135px;
   left: 125px;
 }
-#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 a {
+#container .mosaico .wrap-abas .tabs-content-container .box .ciencia-01 .saiba-mais {
   position: absolute;
   display: block;
   font-size: 13px;
@@ -760,7 +760,7 @@ body {
   top: 75px;
   left: 185px;
 }
-#container .mosaico .wrap-abas .tabs-content-container .box .download-campanha a {
+#container .mosaico .wrap-abas .tabs-content-container .box .download-campanha .baixe {
   position: absolute;
   display: block;
   font-size: 13px;

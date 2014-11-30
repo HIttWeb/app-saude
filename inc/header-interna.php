@@ -9,5 +9,5 @@
 
 	<div id="container">
 		<header>
-			<h1 class="titulo">Faça o teste do HIV. #partiuteste</h1>
+			<h1 class="titulo-interna">Faça o teste do HIV. #partiuteste</h1>
 		</header>
