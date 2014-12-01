@@ -7,6 +7,29 @@
   color: white;
 }
 
+/*#container .conteudo-interno .wrap-abas .tabs li #tratamento.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #onde.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #deu-positivo.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #sus{
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/seta-branca.png) 0 0 no-repeat;
+  width: 201px;
+  height: 62px;
+  bottom: -25px;
+  left: -8px;
+  z-index: 99;
+}*/
+
+#container .conteudo-interno .wrap-abas .tabVertical li #direitos.ativo:after,
+#container .conteudo-interno .wrap-abas .tabVertical li #deu-positivo.ativo:after,
+#container .conteudo-interno .wrap-abas .tabVertical li #cuidados.ativo:after,
+#container .conteudo-interno .wrap-abas .tabVertical li #sus.ativo:after{
+	background: none!important;
+}
+
+
 .txt-normal{text-transform: none !important;} 
 .marginBottomP{margin-bottom: 20px}
 .MarginUl{margin-left: 16px !important;margin-bottom: 28px !important}
@@ -14,4 +37,18 @@ ul.MarginUl > li{margin-bottom: 10px !important;font-family: 'museo_sans500', sa
 font-size: 13px;
 line-height: 1.1;}
 .tit-maiorMuseu{font-family: 'museo_sans900', sans-serif !important;font-size: 16px !important;margin-bottom: 6px !important}
+ul.tabVertical{width: 193px !important;float: left !important;}
+.tabVertical li{display: block !important;float: none!important;}
+.verticalTabContainer{float: left!important; width: 387px !important;}
+.yellowTit{color: #ffca03!important;}
+.sexualidade{width: 386px !important;height: 680px !important;}
 
+/*listagem filme*/
+#listaFilmes{margin:0;padding: 0}
+#listaFilmes li{display: block;margin-bottom: 25px;}
+h5.titFilme{margin-bottom: 10px !important;font-family: 'museo_sans900', sans-serif;font-size: 15px;line-height: 1.1;}
+.wrap-coverFilme{float: left;}
+.wrap-coverFilme > img{margin: 0 20px 10px 0 !important;}
+.txt-descricao{font-size: 13px !important}
+#container .conteudo-interno .wrap-abas .tabs.tabVertical li #deu-positivo{padding-top: 72px !important}
+#container .conteudo-interno .wrap-abas .tabs-content-container.verticalTabContainer .tab-content.ativo{height: 680px !important;padding: 50px !important}
