@@ -1,0 +1,17 @@
+#container .conteudo-interno .wrap-abas .tabs-content-container #sus {
+  background: #057faa;
+}
+
+#container .conteudo-interno .wrap-abas .tabs li #sus {
+  background: #057faa;
+  color: white;
+}
+
+.txt-normal{text-transform: none !important;} 
+.marginBottomP{margin-bottom: 20px}
+.MarginUl{margin-left: 16px !important;margin-bottom: 28px !important}
+ul.MarginUl > li{margin-bottom: 10px !important;font-family: 'museo_sans500', sans-serif;
+font-size: 13px;
+line-height: 1.1;}
+.tit-maiorMuseu{font-family: 'museo_sans900', sans-serif !important;font-size: 16px !important;margin-bottom: 6px !important}
+
