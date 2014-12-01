@@ -763,17 +763,69 @@ body {
   background: white;
   color: #9d1d1c;
 }
+#container .conteudo-interno .wrap-abas .tabs li #tratamento.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #onde.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #deu-positivo.ativo:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/seta-branca.png) 0 0 no-repeat;
+  width: 201px;
+  height: 62px;
+  bottom: -25px;
+  left: -8px;
+  z-index: 99;
+}
 #container .conteudo-interno .wrap-abas .tabs li #teste,
 #container .conteudo-interno .wrap-abas .tabs li #como,
-#container .conteudo-interno .wrap-abas .tabs li #direitos {
+#container .conteudo-interno .wrap-abas .tabs li #cuidados {
   background: #f7941d;
   color: white;
 }
+#container .conteudo-interno .wrap-abas .tabs li #teste.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #como.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #cuidados.ativo:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/seta-amarela.png) 0 0 no-repeat;
+  width: 201px;
+  height: 62px;
+  bottom: -25px;
+  left: -8px;
+  z-index: 99;
+}
 #container .conteudo-interno .wrap-abas .tabs li #prevencao,
 #container .conteudo-interno .wrap-abas .tabs li #porque,
-#container .conteudo-interno .wrap-abas .tabs li #cuidados {
+#container .conteudo-interno .wrap-abas .tabs li #direitos {
   background: #9d1d1c;
   color: white;
+}
+#container .conteudo-interno .wrap-abas .tabs li #prevencao.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #porque.ativo:after,
+#container .conteudo-interno .wrap-abas .tabs li #direitos.ativo:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  background: url(../images/seta-vermelha.png) 0 0 no-repeat;
+  width: 201px;
+  height: 62px;
+  bottom: -25px;
+  left: -8px;
+  z-index: 99;
+}
+#container .conteudo-interno .wrap-abas .tabs li #porque span,
+#container .conteudo-interno .wrap-abas .tabs li #como span,
+#container .conteudo-interno .wrap-abas .tabs li #onde span {
+  font-size: 65px;
+  position: absolute;
+  display: block;
+  top: 70px;
+  right: 20px;
+  z-index: 999;
+}
+#container .conteudo-interno .wrap-abas .tabs li #deu-positivo {
+  padding-top: 30px;
 }
 #container .conteudo-interno .wrap-abas .tabs-content-container {
   position: relative;
@@ -813,13 +865,69 @@ body {
 }
 #container .conteudo-interno .wrap-abas .tabs-content-container #teste,
 #container .conteudo-interno .wrap-abas .tabs-content-container #como,
-#container .conteudo-interno .wrap-abas .tabs-content-container #direitos {
+#container .conteudo-interno .wrap-abas .tabs-content-container #cuidados {
   background: #f7941d;
 }
 #container .conteudo-interno .wrap-abas .tabs-content-container #prevencao,
 #container .conteudo-interno .wrap-abas .tabs-content-container #porque,
-#container .conteudo-interno .wrap-abas .tabs-content-container #cuidados {
+#container .conteudo-interno .wrap-abas .tabs-content-container #direitos {
   background: #9d1d1c;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #deu-positivo ul {
+  list-style-type: disc;
+  margin-left: 95px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #deu-positivo ul li {
+  list-style-type: disc;
+  color: #6a6a6a;
+  margin-bottom: 20px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #cuidados ul,
+#container .conteudo-interno .wrap-abas .tabs-content-container #direitos ul {
+  list-style-type: disc;
+  margin-left: 95px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #cuidados ul li,
+#container .conteudo-interno .wrap-abas .tabs-content-container #direitos ul li {
+  list-style-type: disc;
+  color: white;
+  margin-bottom: 20px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #porque img {
+  float: none;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #porque p {
+  position: relative;
+  display: block;
+  font-family: 'museo_sans500', sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #como img {
+  float: none;
+  margin: 0 auto;
+  width: 155px;
+  height: 155px;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #onde form {
+  position: relative;
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #onde form label {
+  position: relative;
+  display: block;
+  clear: both;
+  margin-bottom: 3px;
+  color: #9d1d1c;
+}
+#container .conteudo-interno .wrap-abas .tabs-content-container #onde form select {
+  position: relative;
+  display: block;
+  clear: both;
+  margin-bottom: 10px;
 }
 #container .conteudo-interno .topo-interna {
   position: relative;

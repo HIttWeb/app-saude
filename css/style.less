@@ -635,16 +635,73 @@ body{
 					#tratamento, #onde, #deu-positivo{
 						background: #FFFFFF;
 						color: #9d1d1c;
+
+						&.ativo{
+							&:after{
+								content: ' ';
+								position: absolute;
+								display: block;
+								background: url(../images/seta-branca.png) 0 0 no-repeat;
+								width: 201px;
+								height: 62px;
+								bottom: -25px;
+								left: -8px;
+								z-index: 99;
+							}
+						}
 					}
 
-					#teste, #como, #direitos{
+					#teste, #como, #cuidados{
 						background: #f7941d;
 						color: #FFFFFF;
+
+						&.ativo{
+							&:after{
+								content: ' ';
+								position: absolute;
+								display: block;
+								background: url(../images/seta-amarela.png) 0 0 no-repeat;
+								width: 201px;
+								height: 62px;
+								bottom: -25px;
+								left: -8px;
+								z-index: 99;
+							}
+						}
 					}
 
-					#prevencao, #porque, #cuidados{
+					#prevencao, #porque, #direitos{
 						background: #9d1d1c;
 						color: #FFFFFF;
+
+						&.ativo{
+							&:after{
+								content: ' ';
+								position: absolute;
+								display: block;
+								background: url(../images/seta-vermelha.png) 0 0 no-repeat;
+								width: 201px;
+								height: 62px;
+								bottom: -25px;
+								left: -8px;
+								z-index: 99;
+							}
+						}
+					}
+
+					#porque, #como, #onde{
+						span{
+							font-size: 65px;
+							position: absolute;
+							display: block;
+							top: 70px;
+							right: 20px;
+							z-index: 999;
+						}
+					}
+
+					#deu-positivo{
+						padding-top: 30px;
 					}
 				}
 			}
@@ -689,12 +746,86 @@ body{
 					color: #545454;
 				}
 
-				#teste, #como, #direitos{
+				#teste, #como, #cuidados{
 					background: #f7941d;
 				}
 
-				#prevencao, #porque, #cuidados{
+				#prevencao, #porque, #direitos{
 					background: #9d1d1c;
+				}
+
+				#deu-positivo{
+					ul{
+						list-style-type: disc;
+						margin-left: 95px;
+						
+						li{
+							list-style-type: disc;
+							color: #6a6a6a;
+							margin-bottom: 20px;
+						}
+					}
+				}
+
+				#cuidados, #direitos{
+					ul{
+						list-style-type: disc;
+						margin-left: 95px;
+
+						li{
+							list-style-type: disc;
+							color: #FFFFFF;
+							margin-bottom: 20px;
+						}
+					}
+				}
+
+				#porque{
+					img{
+						float: none;
+					}
+
+					p{
+						position: relative;
+						display: block;
+						font-family: 'museo_sans500', sans-serif;
+						font-size: 14px;
+						line-height: 1.1;
+						margin-bottom: 20px;
+					}
+				}
+
+				#como{
+					img{
+						float: none;
+						margin: 0 auto;
+						width: 155px;
+						height: 155px;
+					}
+				}
+
+				#onde{
+					form{
+						position: relative;
+						display: block;
+						width: 120px;
+						margin: 0 auto;
+
+						label{
+							position: relative;
+							display: block;
+							clear: both;
+							margin-bottom: 3px;
+							color: #9d1d1c;
+						}
+
+						select{
+							position: relative;
+							display: block;
+							clear: both;
+							margin-bottom: 10px;
+						}
+					}
 				}
 			}
 		}

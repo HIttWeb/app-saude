@@ -12,23 +12,33 @@
 		<div class="wrap-abas">
 			<ul class="tabs">
 				<li>
-					<a id="cuidados" class="tab" href="javascript:void(0);">cuidados pessoais</a>
+					<a id="cuidados" class="tab" href="javascript:void(0);">cuidados<br>pessoais</a>
 				</li>
 				<li>
-					<a id="direitos" class="tab" href="javascript:void(0);">direitos do portador</a>
+					<a id="direitos" class="tab" href="javascript:void(0);">direitos do<br>portador</a>
 				</li>
 				<li>
-					<a id="deu-positivo" class="tab ativo" href="javascript:void(0);">deu positivo e agora? O que fazer?</a>
+					<a id="deu-positivo" class="tab ativo" href="javascript:void(0);">deu<br>positivo<br>e agora?<br>O que<br>fazer?</a>
 				</li>
 			</ul>
 			<div class="tabs-content-container">
 				<div id="cuidados" class="tab-content">
-					<img src="./images/icon-prevencao.png" alt="">
-					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para.</p>
+					<ul>
+						<li>Alimentação saudável</li>
+						<li>Exercícios físicos</li>
+						<li>Não compartilhar instrumentos perfuro cortantes</li>
+						<li>Usar camisinha sempre</li>
+					</ul>
 				</div>
 				<div id="direitos" class="tab-content">
-					<img src="./images/icon-teste.png" alt="">
-					<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para.Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para.</p>
+					<ul>
+						<li>Assistência e tratamento</li>
+						<li>Privacidade e Liberdade</li>
+						<li>Não pode ser discriminado</li>
+						<li>Não pode ser obrigado a fazer exames</li>
+						<li>Lei Nº 12.984, de 2 de junho de 2014 (define o crime de discriminação dos portadores do vírus da imunodeficiência humana – HIV e doentes da AIDS.</li>
+					</ul>
+
 				</div>
 				<div id="deu-positivo" class="tab-content ativo">
 					<ul>
